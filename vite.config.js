@@ -5,5 +5,5 @@ import ghPages from 'gh-pages'; // Import the gh-pages package
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/<Ochi-clone>/', // Replace <repository-name> with your repo name
-});
+  base: '/', // This works fine for Vercel deployment
+})
